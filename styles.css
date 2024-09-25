@@ -10,41 +10,76 @@
 }
 
 .right-section{
+    width: 70vw;
+    font-family:'Helvetica Neue', Arial, sans-serif
 
 }
 
 .left-section{
     position: relative;
     align-items: center;
+    justify-content: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 50vw;
+ 
    
 
 }
 
 #bg{
-    width: 30rem;
-    height: 60rem;
+    width: 100%;
+   
 }
 
 #logo{
-    width: 5rem;
-    position: relative;
-    bottom: 0.5rem;;
+    width: 12%;
+    /* position: relative; */
+    margin-bottom: 3%;
+   
+
   
-   
-   
 
 
 }
 
 .graphic{
-    position:absolute;
-    top: 10rem;
-   
+    /* position:absolute; */
+    margin-top: 3%;
     font-family:"norse";
-    font-size:  5rem;
+    font-size:  7vw;
     color: white;
     display: flex;
+    /* margin-top: 3%; */
     align-items: center;
+    justify-content: center;
+    /* width: 50%; */
+   
+   
+    /* height: auto;  */
+
+    
+    
+   
+  
+}
+
+.transparent-bg{
+    background-color: rgba(0, 0, 0, 0.571);
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    margin-bottom: 60%;
+    position: absolute;
+}
+
+
+.fieldset{
+    border: 0;
+}
+
+.form{
+    font-family: ;
 }
